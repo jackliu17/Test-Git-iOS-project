@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1598F5918F56AB900D58B0E /* PATest.m in Sources */ = {isa = PBXBuildFile; fileRef = A1598F5818F56AB900D58B0E /* PATest.m */; };
 		A17B661518F52705009E37BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17B661418F52705009E37BB /* Foundation.framework */; };
 		A17B661718F52705009E37BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17B661618F52705009E37BB /* CoreGraphics.framework */; };
 		A17B661918F52705009E37BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17B661818F52705009E37BB /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A1598F5718F56AB900D58B0E /* PATest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PATest.h; path = ../PATest.h; sourceTree = "<group>"; };
+		A1598F5818F56AB900D58B0E /* PATest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PATest.m; path = ../PATest.m; sourceTree = "<group>"; };
 		A17B661118F52705009E37BB /* Git Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17B661418F52705009E37BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A17B661618F52705009E37BB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,6 +115,8 @@
 		A17B661A18F52705009E37BB /* Git Test */ = {
 			isa = PBXGroup;
 			children = (
+				A1598F5718F56AB900D58B0E /* PATest.h */,
+				A1598F5818F56AB900D58B0E /* PATest.m */,
 				A17B662318F52705009E37BB /* PAAppDelegate.h */,
 				A17B662418F52705009E37BB /* PAAppDelegate.m */,
 				A17B662618F52705009E37BB /* Main.storyboard */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1598F5918F56AB900D58B0E /* PATest.m in Sources */,
 				A17B662118F52705009E37BB /* main.m in Sources */,
 				A17B662B18F52705009E37BB /* PAViewController.m in Sources */,
 				A17B662518F52705009E37BB /* PAAppDelegate.m in Sources */,
@@ -457,6 +463,7 @@
 				A17B664518F52705009E37BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A17B664618F52705009E37BB /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				A17B664818F52705009E37BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
